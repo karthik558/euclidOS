@@ -8,7 +8,7 @@ const LoadingScreen = () => {
     let bodyEl = document.querySelector("body");
     if (appData.showLoading) {
       loadingPace();
-      
+
       if (bodyEl.classList.contains("hideX")) {
         bodyEl.classList.remove("hideX");
       }
@@ -20,7 +20,7 @@ const LoadingScreen = () => {
     <>
       <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
         <div className="loading">
-          {/* <img src="/img/logo/logo-light.png" alt="CherishOS Logo" /> */}
+          <img src="/img/logo/logo-light.png" alt="EuclidOS Logo" />
         </div>
         <div id="preloader"></div>
       </div>

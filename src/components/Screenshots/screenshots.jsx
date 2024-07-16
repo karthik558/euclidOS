@@ -13,7 +13,7 @@ const Screenshots = () => {
   }, [load]);
   const paginationRef = React.useRef(null);
   return (
-    <section id="screenshots" className="secreen-shots section-padding ">      
+    <section id="screenshots" className="secreen-shots section-padding ">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-7 col-md-10">
@@ -22,7 +22,7 @@ const Screenshots = () => {
                 <span className="left"></span> Screenshots
                 <span className="right"></span>
               </h6>
-              <h2>Explore Our Stunning Screenshots</h2>
+              <h2>See Our Stunning Screenshots</h2>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ const Screenshots = () => {
                   speed={1000}
                   spaceBetween={20}
                   loop={true}
-                  slidesPerView={5}                  
+                  slidesPerView={5}
                   pagination={{
                     clickable: true,
                     el: paginationRef.current,

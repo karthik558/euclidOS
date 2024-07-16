@@ -11,7 +11,8 @@ const Features = () => {
                 <span className="left"></span> Features
                 <span className="right"></span>
               </h6>
-              <h2>Thrilling CherishOS: Unleashing Exciting Features!</h2>
+              <h2>
+                Unleashing Exciting Features!</h2>
             </div>
           </div>
         </div>

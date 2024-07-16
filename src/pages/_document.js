@@ -15,11 +15,11 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="Android, OpenSource, Custom ROM, CherishOS"
+            content="Android, OpenSource, Custom ROM, EuclidOS"
           />
           <meta
             name="description"
-            content="CherishOS - Is a custom ROM based on AOSP, with some extra cherry-picks from a lot of different ROMs/Projects. We wanted to create a ROM, which we can call as an Android OS with minimal bugs and a lot of features."
+            content="EuclidOS: a feature-rich, visually stunning custom firmware built on the Android Open Source Project."
           />
           <meta name="author" content="" />
           <link rel="shortcut icon" href="/img/logo/favicon.png" />

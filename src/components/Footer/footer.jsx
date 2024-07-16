@@ -10,10 +10,9 @@ const Footer2 = () => {
               <a href="#0" className="logo-brand mb-50">
                 <img src="/img/logo/logo-footer.png" alt="" />
               </a>
-              <p>
-                AOSP-based ROM with Pixel-like experience, performance
-                enhancements, Google apps, and useful additional features.
-              </p>
+              {/* <p>
+                AOSP-based ROM with Pixel-like experience, enhanced performance, Google apps, and extra features.
+              </p> */}
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -22,16 +21,16 @@ const Footer2 = () => {
               <ul>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="https://github.com/CherishOS/android_manifest">Access Source</a>
+                  <a href="https://github.com/euclidTeam/manifest">Access Source</a>
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
                   <a href="#0">Blogs</a>
                 </li>
-                <li>
+                {/* <li>
                   <span className="icon pe-7s-angle-right"></span>
                   <a href="#0">Devices</a>
-                </li>
+                </li> */}
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
                   <a href="https://forms.gle/BWg1mPxHNv2W8eK79">Maintainership ?</a>
@@ -43,21 +42,21 @@ const Footer2 = () => {
             <div className="item-clumn links sm-mb50">
               <h5 className="title">Links</h5>
               <ul>
+                {/* <li>
+                  <span className="icon pe-7s-angle-right"></span>
+                  <a href="https://crowdin.com/project/EuclidOS">Crowdin</a>
+                </li> */}
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="https://crowdin.com/project/cherishos">Crowdin</a>
+                  <a href="https://t.me/euclidoschat">Support</a>
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="https://t.me/CherishOS_chat">Support</a>
+                  <a href="https://t.me/euclidOSupdates">Channel</a>
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="https://t.me/CherishOS">Channel</a>
-                </li>
-                <li>
-                  <span className="icon pe-7s-angle-right"></span>
-                  <a href="https://cherishos.com/policy.html">Privacy Policy</a>
+                  <a href="#">Privacy Policy</a>
                 </li>
               </ul>
             </div>
@@ -68,20 +67,20 @@ const Footer2 = () => {
               <div className="info">
                 <span>Email Address</span>
                 <h6>
-                  <a href="mailto:support@cherishos.com">support@cherishos.com</a>
+                  <a href="mailto:support@EuclidOS.com">support@euclidos.com</a>
                 </h6>
               </div>
               <div className="social mt-30">
                 <a href="#0">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://t.me/CherishOS">
+                <a href="https://t.me/EuclidOS">
                   <i className="fab fa-telegram"></i>
                 </a>
                 <a href="#0">
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="https://github.com/CherishOS">
+                <a href="https://github.com/euclidTeam/manifest">
                   <i className="fab fa-github"></i>
                 </a>
               </div>
@@ -95,8 +94,8 @@ const Footer2 = () => {
             <div className="col-12">
               <div className="text-center">
                 <p>
-                  © 2023. Designed & Developed by{" "}
-                  <a href="https://karthiklal.live">KARTHIK LAL.</a> All right
+                  © 2024. Designed & Developed by{" "}
+                  <a href="https://karthiklal.in">KARTHIK LAL.</a> All right
                   reserved.
                 </p>
               </div>

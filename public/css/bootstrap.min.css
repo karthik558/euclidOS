@@ -9745,6 +9745,7 @@ button.bg-dark:hover {
 
 .text-center {
   text-align: center !important;
+  padding-bottom: 35px;
 }
 
 @media (min-width: 576px) {

@@ -1,4 +1,5 @@
 import React from "react";
+import { useRouter } from "next/router";
 import Head from "next/head";
 import Script from "next/script";
 import Cursor from "../components/cursor";
@@ -7,10 +8,14 @@ import LoadingScreen from "../components/Loading-Screen";
 import "../styles/main.scss";
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+
   return (
     <>
       <Head>
-        <title>CherishOS</title>
+        <title>
+          {router.pathname === "/" ? "Home" : "Downloads"} | EuclidOS
+        </title>
         <link rel="icon" href="/img/favicon.png" />
       </Head>
       <Cursor />

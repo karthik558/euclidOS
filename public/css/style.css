@@ -39,7 +39,8 @@ h6 {
 }
 
 p {
-  color: #9b9b9b;
+  /* color: #9b9b9b; */
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.8;
@@ -53,7 +54,7 @@ p {
 
 .stit {
   font-size: 22px;
-  color: #f45162;
+  color: #3d64ff;
   position: relative;
   z-index: 4;
 }
@@ -75,7 +76,7 @@ p {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #f45162;
+  background: #3d64ff;
   z-index: -1;
 }
 
@@ -96,7 +97,7 @@ p {
 }
 
 .bg-dark .stit {
-  color: #f45162 !important;
+  color: #3d64ff !important;
 }
 
 .bg-dark .stit span {
@@ -108,7 +109,7 @@ p {
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  background: #17c0e9;
+  background: #819aff;
   -webkit-filter: blur(100px);
   filter: blur(100px);
 }
@@ -138,7 +139,7 @@ p {
 }
 
 .page-app-header .text-center h1 {
-  background: linear-gradient(to right top, #f45162,#f45162,#17c0e9, #17c0e9);
+  background: linear-gradient(to right top, #3d64ff, #3d64ff, #819aff, #819aff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 80px;
@@ -149,7 +150,6 @@ p {
     font-size: 60px;
   }
 }
-  
 
 .page-app-header .text-center .links a {
   color: #fff;
@@ -185,7 +185,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 
 .swiper-pagination-bullets.swiper-pagination-horizontal
   .swiper-pagination-bullet-active {
-  background: #f45162;
+  background: #3d64ff;
   border-color: transparent;
 }
 
@@ -203,17 +203,17 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .buton.butn-gr {
-  background-color: #f45162;
+  background-color: #3d64ff;
   background-image: -webkit-gradient(
     linear,
     right top,
     left top,
-    from(#17c0e9),
-    to(#f45162)
+    from(#819aff),
+    to(#3d64ff)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #f45162);
-  background-image: -o-linear-gradient(right, #17c0e9, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #f45162);  
+  background-image: -webkit-linear-gradient(right, #819aff, #3d64ff);
+  background-image: -o-linear-gradient(right, #819aff, #3d64ff);
+  background-image: linear-gradient(to left, #819aff, #3d64ff);
   color: #fff;
 }
 
@@ -222,7 +222,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .buton.butn-gr:hover {
-  background: #f45162;
+  background: #3d64ff;
 }
 
 .buton.butn-gray {
@@ -233,7 +233,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .buton.butn-gray:hover {
-  background: #f45162;
+  background: #3d64ff;
   color: #fff;
 }
 
@@ -246,7 +246,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .buton.butn-bord-red {
-  border: 1px solid #f45162;
+  border: 1px solid #3d64ff;
 }
 
 .buton.butn-bord-light {
@@ -303,7 +303,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   left: 0;
   width: 180px;
   height: 180px;
-  background: #17c0e9;
+  background: #819aff;
 }
 
 .brands .head h2 span {
@@ -371,7 +371,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 .serv-block .circle-blur {
   width: 240px;
   height: 240px;
-  background: #f45162;
+  background: #3d64ff;
   -webkit-filter: blur(120px);
   filter: blur(120px);
   left: 0;
@@ -406,7 +406,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   height: 20px;
   text-align: center;
   border-radius: 50%;
-  background: #f45162;
+  background: #3d64ff;
   margin-right: 20px;
 }
 
@@ -417,7 +417,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .serv-block .app-sta .item .icon {
-  color: #f45162;
+  color: #3d64ff;
   font-size: 40px;
   margin-bottom: 10px;
 }
@@ -448,7 +448,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 .accordion.shadwo .item .accordion-info {
   margin-top: 20px;
   display: none;
-  transition: height .5s ease;
+  transition: height 0.5s ease;
   overflow: hidden;
 }
 
@@ -515,12 +515,12 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
     linear,
     right top,
     left top,
-    from(#17c0e9),
-    to(#f45162)
+    from(#819aff),
+    to(#3d64ff)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #f45162);
-  background-image: -o-linear-gradient(right, #17c0e9, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #f45162);
+  background-image: -webkit-linear-gradient(right, #819aff, #3d64ff);
+  background-image: -o-linear-gradient(right, #819aff, #3d64ff);
+  background-image: linear-gradient(to left, #819aff, #3d64ff);
   opacity: 0;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -539,12 +539,12 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 
 .app-services .item .item-tit .icon svg {
   width: 40px;
-  fill: #f45162;
+  fill: #3d64ff;
 }
 
 .app-services .item .item-tit .icon span {
   font-size: 45px;
-  color: #f45162;
+  color: #3d64ff;
 }
 
 .app-services .item .item-tit .text-tit h5 {
@@ -603,12 +603,12 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
     linear,
     right top,
     left top,
-    from(#17c0e9),
-    to(#f45162)
+    from(#819aff),
+    to(#3d64ff)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #f45162);
-  background-image: -o-linear-gradient(right, #17c0e9, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #f45162);
+  background-image: -webkit-linear-gradient(right, #819aff, #3d64ff);
+  background-image: -o-linear-gradient(right, #819aff, #3d64ff);
+  background-image: linear-gradient(to left, #819aff, #3d64ff);
   opacity: 0;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -617,13 +617,13 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 
 .app-process .item .icon {
   font-size: 60px;
-  color: #f45162;
+  color: #3d64ff;
   margin-bottom: 30px;
 }
 
 .app-process .item .step-number {
   font-size: 14px;
-  color: #f45162;
+  color: #3d64ff;
   letter-spacing: 4px;
   text-transform: uppercase;
   margin: 20px auto;
@@ -656,7 +656,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   right: 0;
   top: auto;
   bottom: 100px;
-  background: #f45162;
+  background: #3d64ff;
 }
 
 .team-vid .vid-img {
@@ -682,7 +682,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .team-vid .vid-img .vid svg {
-  fill: #f45162;
+  fill: #3d64ff;
   width: 20px;
   position: absolute;
   top: 50%;
@@ -705,12 +705,12 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
     linear,
     right top,
     left top,
-    from(#17c0e9),
-    to(#f45162)
+    from(#819aff),
+    to(#3d64ff)
   );
-  background: -webkit-linear-gradient(right, #17c0e9, #f45162);
-  background: -o-linear-gradient(right, #17c0e9, #f45162);
-  background: linear-gradient(to left, #17c0e9, #f45162);
+  background: -webkit-linear-gradient(right, #819aff, #3d64ff);
+  background: -o-linear-gradient(right, #819aff, #3d64ff);
+  background: linear-gradient(to left, #819aff, #3d64ff);
 }
 
 .team-vid .item .img img {
@@ -739,7 +739,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .team-vid .item .img:before {
-  background: #f45162;
+  background: #3d64ff;
   bottom: -15px;
   right: -15px;
 }
@@ -777,17 +777,17 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   left: 0;
   width: 100%;
   height: 2px;
-  background: #f45162;
+  background: #3d64ff;
   background-image: -webkit-gradient(
     linear,
     right top,
     left top,
-    from(#17c0e9),
-    to(#f45162)
+    from(#819aff),
+    to(#3d64ff)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #f45162);
-  background-image: -o-linear-gradient(right, #17c0e9, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #f45162);
+  background-image: -webkit-linear-gradient(right, #819aff, #3d64ff);
+  background-image: -o-linear-gradient(right, #819aff, #3d64ff);
+  background-image: linear-gradient(to left, #819aff, #3d64ff);
   opacity: 0;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -795,7 +795,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .app-works .filter span.active {
-  color: #f45162;
+  color: #3d64ff;
 }
 
 .app-works .filter span.active:after {
@@ -850,10 +850,10 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 /* ====================== [ End app-works  ] ====================== */
 /* ====================== [ Start app-action  ] ====================== */
 .app-action .box-gr {
-  background-color: #f45162;
-  background-image: -webkit-linear-gradient(125deg, #17c0e9, #f45162);
-  background-image: -o-linear-gradient(125deg, #17c0e9, #f45162);
-  background-image: linear-gradient(-35deg, #17c0e9, #f45162);
+  background-color: #3d64ff;
+  background-image: -webkit-linear-gradient(125deg, #819aff, #3d64ff);
+  background-image: -o-linear-gradient(125deg, #819aff, #3d64ff);
+  background-image: linear-gradient(-35deg, #819aff, #3d64ff);
   margin-top: 100px;
 }
 
@@ -901,7 +901,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 
 .download .sidebar .search .form-group button {
   padding: 11px 20px;
-  background: #17c0e9;
+  background: #819aff;
   color: #fff;
   font-size: 18px;
   border: 0;
@@ -961,17 +961,17 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 
 .download .sidebar .tags a:hover {
   color: #fff;
-  background: #f45162;
+  background: #3d64ff;
   background-image: -webkit-gradient(
     linear,
     right top,
     left top,
-    from(#17c0e9),
-    to(#f45162)
+    from(#819aff),
+    to(#3d64ff)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9,#f45162);
-  background-image: -o-linear-gradient(right, #17c0e9,#f45162);
-  background-image: linear-gradient(to left, #17c0e9,#f45162);
+  background-image: -webkit-linear-gradient(right, #819aff, #3d64ff);
+  background-image: -o-linear-gradient(right, #819aff, #3d64ff);
+  background-image: linear-gradient(to left, #819aff, #3d64ff);
 }
 
 .download .store .top-area .filter-select select {
@@ -1029,7 +1029,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   border-radius: 4px;
   color: #fff;
   font-size: 14px;
-  background: #f45162;
+  background: #3d64ff;
   z-index: 2;
 }
 
@@ -1054,17 +1054,17 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   border-radius: 4px;
   color: #fff;
   font-size: 14px;
-  background: #f45162;
+  background: #3d64ff;
   background-image: -webkit-gradient(
     linear,
     right top,
     left top,
-    from(#17c0e9),
-    to(#f45162)
+    from(#819aff),
+    to(#3d64ff)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9,#f45162);
-  background-image: -o-linear-gradient(right, #17c0e9,#f45162);
-  background-image: linear-gradient(to left, #17c0e9,#f45162);
+  background-image: -webkit-linear-gradient(right, #819aff, #3d64ff);
+  background-image: -o-linear-gradient(right, #819aff, #3d64ff);
+  background-image: linear-gradient(to left, #819aff, #3d64ff);
 }
 
 .download .store .item .img .add a span {
@@ -1083,7 +1083,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .download .store .item .info span {
-  color: #f45162;
+  color: #3d64ff;
   margin-top: 10px;
 }
 
@@ -1128,17 +1128,17 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
     linear,
     left top,
     right top,
-    from(#f45162),
+    from(#3d64ff),
     to(#dee4ec)
   );
   background: -webkit-linear-gradient(
     left,
-    #f45162 var(--range-progress),
+    #3d64ff var(--range-progress),
     #dee4ec var(--range-progress)
   );
   background: linear-gradient(
     90deg,
-    #f45162 var(--range-progress),
+    #3d64ff var(--range-progress),
     #dee4ec var(--range-progress)
   );
   border-radius: 2px;
@@ -1147,16 +1147,16 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 .download #range::-webkit-slider-thumb {
   -webkit-appearance: none;
   border-radius: 50%;
-  background: #f45162;
+  background: #3d64ff;
   background-image: -webkit-gradient(
     linear,
     right top,
     left top,
-    from(#17c0e9),
-    to(#f45162)
+    from(#819aff),
+    to(#3d64ff)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #f45162);
+  background-image: -webkit-linear-gradient(right, #819aff, #3d64ff);
+  background-image: linear-gradient(to left, #819aff, #3d64ff);
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -1175,7 +1175,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 .app-footer .circle-blur {
   width: 180px;
   height: 180px;
-  background: #f45162;
+  background: #3d64ff;
   -webkit-filter: blur(120px);
   filter: blur(120px);
   left: 0;
@@ -1190,11 +1190,11 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   right: 0;
   top: auto;
   bottom: 0;
-  background: #17c0e9;
+  background: #819aff;
 }
 
 .app-footer .logo-brand {
-  max-width: 90px;
+  max-width: 120px;
 }
 
 .app-footer .info span {
@@ -1252,12 +1252,12 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
     linear,
     right top,
     left top,
-    from(#17c0e9),
-    to(#f45162)
+    from(#819aff),
+    to(#3d64ff)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #f45162);
-  background-image: -o-linear-gradient(right, #17c0e9, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #f45162);
+  background-image: -webkit-linear-gradient(right, #819aff, #3d64ff);
+  background-image: -o-linear-gradient(right, #819aff, #3d64ff);
+  background-image: linear-gradient(to left, #819aff, #3d64ff);
   opacity: 0;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -1296,7 +1296,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .app-footer .sub-footer p a:hover {
-  color: #f45162;
+  color: #3d64ff;
 }
 
 /* ====================== [ End footer  ] ====================== */
@@ -1359,7 +1359,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 /* Color of the scroll thumb */
 ::-webkit-scrollbar-thumb {
   border-radius: 35px;
-  background: linear-gradient(#f45162, #17c0e9);
+  background: linear-gradient(#3d64ff, #819aff);
 }
 
 /* Background color of the scroll track */
@@ -1370,7 +1370,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 
 /* Background color of the scroll track when empty */
 ::-webkit-scrollbar-track:empty {
-  background: transparent!important;
+  background: transparent !important;
 }
 
 .pagination {
@@ -1391,11 +1391,11 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .pagination button:hover {
-  background-color: #17c0e9;
+  background-color: #819aff;
   color: #fff;
 }
 
 .pagination button.active {
-  background-color: #f45162;
+  background-color: #3d64ff;
   color: #fff;
 }

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import DeviceData from "../../data/device.json";
+import DownloadPopup from "./download-popup";
 
 const DownloadList = ({ selectedTag }) => {
   const itemsPerPage = 9;
@@ -16,14 +17,29 @@ const DownloadList = ({ selectedTag }) => {
   const endIndex = startIndex + itemsPerPage;
   const currentItems = filteredItems.slice(startIndex, endIndex);
 
-const items = currentItems.map((item) => (
+  // Download Popup
+  const [showPopup, setShowPopup] = useState(false);
+  const [selectedItem, setSelectedItem] = useState(null);
+
+  const handleDownloadClick = (event, item) => {
+    event.preventDefault();
+    event.stopPropagation();
+    setSelectedItem(item);
+    setShowPopup(true);
+  };
+
+  const handlePopupClose = () => {
+    setShowPopup(false);
+  };
+
+  const items = currentItems.map((item) => (
     <div key={item.id} className="col-lg-4 col-md-6">
       <div className="item">
         <div className="img">
           <img src={item.img} alt="" />
           <span className="tag">{item.tag}</span>
           <div className="add">
-            <a href={item.downloadLink}>
+            <a href="#" onClick={(event) => handleDownloadClick(event, item)}>
               Download <span className="pe-7s-angle-right"></span>
             </a>
           </div>
@@ -66,6 +82,9 @@ const items = currentItems.map((item) => (
       </div>
       <div className="row">{items}</div>
       <div className="pagination">{paginationButtons}</div>
+      {showPopup && selectedItem && (
+        <DownloadPopup item={selectedItem} onClose={handlePopupClose} />
+      )}
     </div>
   );
 };

@@ -34,17 +34,9 @@ const Download = () => {
       <DarkTheme mobileappstyle>
         <NavBar nr={navbarRef} />
         <div className="circle-blur"></div>
-        <PageHeader       
-          title="Downloads"
-          // links={[
-          //   { id: 1, name: "Home", url: "/" },
-          //   {
-          //     id: 2,
-          //     name: "Download",
-          //     url: "/download/",
-          //   },
-          // ]}
-        />    
+        <PageHeader
+          title="Downloads"        
+        />
         <DownloadHome />
         <Footer />
       </DarkTheme>

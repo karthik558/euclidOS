@@ -24,9 +24,8 @@ const NavBar = ({ lr, nr, theme }) => {
   return (
     <nav
       ref={nr}
-      className={`navbar navbar-expand-lg change ${
-        theme === "themeL" ? "light" : ""
-      }`}
+      className={`navbar navbar-expand-lg change ${theme === "themeL" ? "light" : ""
+        }`}
     >
       <div className="container">
         <Link href="/">
@@ -91,12 +90,12 @@ const NavBar = ({ lr, nr, theme }) => {
               >
                 Team
               </a>
-            </li>   
+            </li>
             <div className="butons mt-10">
-                <a href="mailto:support@cherishos.com" className="butn-gr rounded buton">
-                  <span>Contact</span>
-                </a>
-              </div>        
+              <a href="mailto:support@euclidos.com" className="butn-gr rounded buton">
+                <span>Contact</span>
+              </a>
+            </div>
           </ul>
         </div>
       </div>

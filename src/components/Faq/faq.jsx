@@ -14,8 +14,8 @@ const Faq = () => {
               </h6>
               <h2 className="mb-30">
                 FAQ: Any questions on your mind? Frequently asked.
-              </h2>              
-              <a href="https://t.me/CherishOS_Chat" className="butn-gr rounded buton mt-30">
+              </h2>
+              <a href="https://t.me/euclidoschat" className="butn-gr rounded buton mt-30">
                 <span>Support Group</span>
               </a>
             </div>
@@ -102,7 +102,7 @@ const Faq = () => {
                   </div>
                   <div className="accordion-info">
                     <p>
-                      We do not recommend using an older version of CherishOS because it may have compatibility issues or cause data loss. If you attempt to downgrade, you may lose your data.
+                      We do not recommend using an older version of EuclidOS because it may have compatibility issues or cause data loss. If you attempt to downgrade, you may lose your data.
                     </p>
                   </div>
                 </div>
@@ -110,7 +110,7 @@ const Faq = () => {
             </div>
           </div>
         </div>
-      </div>      
+      </div>
     </section>
   );
 };
