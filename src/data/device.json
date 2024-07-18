@@ -1,8 +1,11 @@
 [
   {
     "id": 1,
+    "version": "Euclid 2.0",
     "img": "/img/device-list/zmpm1.jpg",
     "tag": "Asus",
+    "maintainer": "KARTHIK LAL",
+    "maintainerLink": "https://karthiklal.in",
     "info": {
       "title": "Asus Zenfone Max Pro M1",
       "dev_code": "X00TD"
@@ -12,8 +15,11 @@
   },
   {
     "id": 2,
+    "version": "Euclid 2.0",
     "img": "/img/device-list/opn.jpg",
     "tag": "Oneplus",
+    "maintainer": "KARTHIK LAL",
+    "maintainerLink": "https://karthiklal.in",
     "info": {
       "title": "OnePlus Nord",
       "dev_code": "NULL"
@@ -23,8 +29,11 @@
   },
   {
     "id": 3,
+    "version": "Euclid 2.0",
     "img": "/img/device-list/op8.jpg",
     "tag": "Oneplus",
+    "maintainer": "KARTHIK LAL",
+    "maintainerLink": "https://karthiklal.in",
     "info": {
       "title": "OnePlus 8 Pro",
       "dev_code": "instantnoodlep"

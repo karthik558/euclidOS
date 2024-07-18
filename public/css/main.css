@@ -1008,7 +1008,7 @@ span:hover {
 
 .loading {
   position: fixed;
-  left: 50%;  
+  left: 50%;
   top: calc(50% - 40px);
   -webkit-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
@@ -6921,6 +6921,7 @@ section.next-prog.section-padding {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1.5rem;
+  padding-top: 25px;
 }
 
 .download-popup .options label {
@@ -7006,4 +7007,9 @@ section.next-prog.section-padding {
   100% {
     transform: scale(1);
   }
+}
+
+.maintainer-info p {
+  color: white;
+  font-weight: bold;
 }

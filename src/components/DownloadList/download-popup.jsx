@@ -15,7 +15,19 @@ const DownloadPopup = ({ item, onClose }) => {
         <div className="close-btn" onClick={onClose}>
           &times;
         </div>
-        <h3>Download {item.info.title}</h3>
+        <div className="version-box">
+          <span>{item.version}</span>
+        </div>
+        <h3>{item.info.title}</h3>
+        <div className="maintainer-info">
+          <p>
+            Maintained by:{" "}
+            <a href={item.maintainerLink} target="_blank" rel="noopener noreferrer">
+              {item.maintainer}
+            </a>
+            &nbsp;
+          </p>
+        </div>
         <div className="options">
           <label>
             <input
