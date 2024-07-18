@@ -1,13 +1,16 @@
 import React from "react";
 import "react-modal-video/css/modal-video.css";
+import UserData from "../../data/user.json";
 
 const Teams = () => {
   const [isOpen, setOpen] = React.useState(false);
   React.useEffect(() => {
     console.clear();
   }, []);
+
   return (
-    <section id="team"
+    <section
+      id="team"
       className="team-vid section-padding bg-dark pt-0"
       data-overlay-dark="0"
     >
@@ -29,72 +32,21 @@ const Teams = () => {
         </div>
 
         <div className="row">
-          <div className="col-lg-4 col-md-6">
-            <div className="item text-center md-mb50">
-              <div className="img">
-                <img src="/img/team/1.png" alt="" />
-              </div>
-              <div className="info">
-                <h5><a href="#">Mrinmoy Dey</a></h5>
-                <p>Lead Developer</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="item text-center md-mb50">
-              <div className="img">
-                <img src="/img/team/2.png" alt="" />
-              </div>
-              <div className="info">
-                <h5><a href="#">Aditya Pratap Singh</a></h5>
-                <p>Source Developer</p>
+          {UserData.map((user, index) => (
+            <div className="col-lg-4 col-md-6" key={index}>
+              <div className="item text-center md-mb50">
+                <div className="img">
+                  <img src={user.image} alt={user.name} />
+                </div>
+                <div className="info">
+                  <h5>
+                    <a href="#">{user.name}</a>
+                  </h5>
+                  <p>{user.role}</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="item text-center sm-mb50">
-              <div className="img">
-                <img src="/img/team/3.png" alt="" />
-              </div>
-              <div className="info">
-                <h5><a href="#">Arijit Saha</a></h5>
-                <p>Core Member</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="item text-center sm-mb50">
-              <div className="img">
-                <img src="/img/team/4.png" alt="" />
-              </div>
-              <div className="info">
-                <h5><a href="https://karthiklal.in">Karthik Lal</a></h5>
-                <p>Web Developer</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="item text-center md-mb50">
-              <div className="img">
-                <img src="/img/team/5.png" alt="" />
-              </div>
-              <div className="info">
-                <h5><a href="#">Jeevesh V</a></h5>
-                <p>Designer</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="item text-center md-mb50">
-              <div className="img">
-                <img src="/img/team/6.png" alt="" />
-              </div>
-              <div className="info">
-                <h5><a href="#">Naoko Shoto</a></h5>
-                <p>Designer</p>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
 

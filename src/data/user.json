@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Mrinmoy Dey",
+    "role": "Lead Developer",
+    "image": "/img/team/1.png"
+  },
+  {
+    "name": "Aditya Pratap Singh",
+    "role": "Source Developer",
+    "image": "/img/team/2.png"
+  },
+  {
+    "name": "Arijit Saha",
+    "role": "Core Member",
+    "image": "/img/team/3.png"
+  },
+  {
+    "name": "Karthik Lal",
+    "role": "Web Developer",
+    "image": "/img/team/4.png"
+  },
+  {
+    "name": "Jeevesh V",
+    "role": "Designer",
+    "image": "/img/team/5.png"
+  },
+  {
+    "name": "Naoko Shoto",
+    "role": "Designer",
+    "image": "/img/team/6.png"
+  }
+]
