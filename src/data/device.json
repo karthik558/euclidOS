@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "version": "Euclid 2.0",
+    "version": "Euclid 2.0 | Vertex",
     "img": "/img/device-list/zmpm1.jpg",
     "tag": "Asus",
     "maintainer": "KARTHIK LAL",
@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "version": "Euclid 2.0",
+    "version": "Euclid 2.0 | Vertex",
     "img": "/img/device-list/opn.jpg",
     "tag": "Oneplus",
     "maintainer": "KARTHIK LAL",
@@ -29,7 +29,7 @@
   },
   {
     "id": 3,
-    "version": "Euclid 2.0",
+    "version": "Euclid 2.0 | Vertex",
     "img": "/img/device-list/op8.jpg",
     "tag": "Oneplus",
     "maintainer": "KARTHIK LAL",
