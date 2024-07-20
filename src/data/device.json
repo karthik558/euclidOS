@@ -2,13 +2,13 @@
   {
     "id": 1,
     "version": "Euclid 2.0 | Vertex",
-    "img": "/img/device-list/zmpm1.jpg",
-    "tag": "Asus",
-    "maintainer": "KARTHIK LAL",
+    "img": "/img/device-list/op9t.png",
+    "tag": "Oneplus",
+    "maintainer": "Mrick343",
     "maintainerLink": "https://karthiklal.in",
     "info": {
-      "title": "Asus Zenfone Max Pro M1",
-      "dev_code": "X00TD"
+      "title": "Oneplus 9RT",
+      "dev_code": "MARTINI"
     },
     "gappsDownloadLink": "https://example.com/download1-gapps",
     "vanillaDownloadLink": "https://example.com/download1-vanilla"
@@ -16,13 +16,13 @@
   {
     "id": 2,
     "version": "Euclid 2.0 | Vertex",
-    "img": "/img/device-list/opn.jpg",
-    "tag": "Oneplus",
-    "maintainer": "KARTHIK LAL",
+    "img": "/img/device-list/r10p.png",
+    "tag": "Xiaomi",
+    "maintainer": "Afterallafk",
     "maintainerLink": "https://karthiklal.in",
     "info": {
-      "title": "OnePlus Nord",
-      "dev_code": "NULL"
+      "title": "Redmi Note 10 Pro",
+      "dev_code": "SWEET"
     },
     "gappsDownloadLink": "https://example.com/download2-gapps",
     "vanillaDownloadLink": "https://example.com/download2-vanilla"
@@ -30,15 +30,71 @@
   {
     "id": 3,
     "version": "Euclid 2.0 | Vertex",
-    "img": "/img/device-list/op8.jpg",
-    "tag": "Oneplus",
-    "maintainer": "KARTHIK LAL",
+    "img": "/img/device-list/rm6p.png",
+    "tag": "Xiaomi",
+    "maintainer": "Ashwani_212 & Dhanush",
     "maintainerLink": "https://karthiklal.in",
     "info": {
-      "title": "OnePlus 8 Pro",
-      "dev_code": "instantnoodlep"
+      "title": "Poco M6 Pro 5G/Redmi 12 5G",
+      "dev_code": "SKY"
     },
-    "gappsDownloadLink": "https://example.com/download3-gapps",
-    "vanillaDownloadLink": "https://example.com/download3-vanilla"
+    "gappsDownloadLink": "https://example.com/download2-gapps",
+    "vanillaDownloadLink": "https://example.com/download2-vanilla"
+  },
+  {
+    "id": 4,
+    "version": "Euclid 2.0 | Vertex",
+    "img": "/img/device-list/rx50p.png",
+    "tag": "Realme",
+    "maintainer": "Aamir Ali",
+    "maintainerLink": "https://karthiklal.in",
+    "info": {
+      "title": "Realme X50 Pro 5G",
+      "dev_code": "BLADERUNNER"
+    },
+    "gappsDownloadLink": "https://example.com/download2-gapps",
+    "vanillaDownloadLink": "https://example.com/download2-vanilla"
+  },
+  {
+    "id": 5,
+    "version": "Euclid 2.0 | Vertex",
+    "img": "/img/device-list/px3nfc.png",
+    "tag": "Xiaomi",
+    "maintainer": "Lily",
+    "maintainerLink": "https://karthiklal.in",
+    "info": {
+      "title": "Poco X3 NFC",
+      "dev_code": "SURYA"
+    },
+    "gappsDownloadLink": "https://example.com/download2-gapps",
+    "vanillaDownloadLink": "https://example.com/download2-vanilla"
+  },
+  {
+    "id": 6,
+    "version": "Euclid 2.0 | Vertex",
+    "img": "/img/device-list/px5g.png",
+    "tag": "Xiaomi",
+    "maintainer": "Arjith Saha",
+    "maintainerLink": "https://karthiklal.in",
+    "info": {
+      "title": "Poco X5 5G/Redmi Note 12",
+      "dev_code": "STONE"
+    },
+    "gappsDownloadLink": "https://example.com/download2-gapps",
+    "vanillaDownloadLink": "https://example.com/download2-vanilla"
+  },
+  {
+    "id": 7,
+    "version": "Euclid 2.0 | Vertex",
+    "img": "/img/device-list/rn5.png",
+    "tag": "Xiaomi",
+    "maintainer": "Arjith Saha",
+    "maintainerLink": "https://karthiklal.in",
+    "info": {
+      "title": "Xiaomi Redmi Note 5",
+      "dev_code": "WHYRED"
+    },
+    "gappsDownloadLink": "https://example.com/download2-gapps",
+    "vanillaDownloadLink": "https://example.com/download2-vanilla"
   }
 ]
