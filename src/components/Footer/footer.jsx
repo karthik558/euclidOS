@@ -33,7 +33,7 @@ const Footer2 = () => {
                 </li> */}
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="https://forms.gle/BWg1mPxHNv2W8eK79">Maintainership ?</a>
+                  <a href="https://github.com/euclid-Devices/official_devices/issues/new/choose">Maintainership ?</a>
                 </li>
               </ul>
             </div>
