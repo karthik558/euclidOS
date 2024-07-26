@@ -92,7 +92,7 @@ const NavBar = ({ lr, nr, theme }) => {
               </a>
             </li>
             <div className="butons mt-10">
-              <a href="mailto:support@euclidos.com" className="butn-gr rounded buton">
+              <a href="mailto:support@euclidos.org" className="butn-gr rounded buton">
                 <span>Contact</span>
               </a>
             </div>
