@@ -1687,9 +1687,9 @@ span:hover {
 /* Set the background color for the navbar on mobile devices with 900 or less */
 @media (max-width: 900px) {
   .navbar {
-    background: rgba(23, 24, 27, 0.9);
+    /* background: rgba(23, 24, 27, 0.9); */
     backdrop-filter: blur(10px);
-    border-bottom: 2px solid #333538;
+    /* border-bottom: 2px solid #333538; */
   }
 }
 
