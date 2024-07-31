@@ -22,6 +22,7 @@ class MyDocument extends Document {
             content="EuclidOS: a feature-rich, visually stunning custom firmware built on the Android Open Source Project."
           />
           <meta name="author" content="" />
+          <meta name="google-adsense-account" content="ca-pub-6865446214276392" />
           <link rel="shortcut icon" href="/img/logo/favicon.png" />
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
