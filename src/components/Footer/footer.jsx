@@ -56,7 +56,7 @@ const Footer2 = () => {
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="#">Privacy Policy</a>
+                  <a href="/privacy-policy">Privacy Policy</a>
                 </li>
               </ul>
             </div>

@@ -10,12 +10,24 @@ import "../styles/main.scss";
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
+  // Determine the page title based on the current route
+  const getPageTitle = () => {
+    switch (router.pathname) {
+      case "/":
+        return "Home";
+      case "/download":
+        return "Downloads";
+      case "/privacy-policy":
+        return "Privacy Policy";
+      default:
+        return "EuclidOS";
+    }
+  };
+
   return (
     <>
       <Head>
-        <title>
-          {router.pathname === "/" ? "Home" : "Downloads"} | EuclidOS
-        </title>
+        <title>{getPageTitle()} | EuclidOS</title>
         <link rel="icon" href="/img/favicon.png" />
       </Head>
       <Cursor />
