@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 
 const Footer2 = () => {
   return (
@@ -56,7 +57,9 @@ const Footer2 = () => {
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="/privacy-policy">Privacy Policy</a>
+                  <Link href="/privacy-policy">
+                    <a>Privacy Policy</a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -95,7 +98,7 @@ const Footer2 = () => {
               <div className="text-center">
                 <p>
                   © 2024. Designed & Developed by{" "}
-                  <a href="https://karthiklal.in">KARTHIK LAL.</a> All right
+                  <a href="https://karthiklal.in">KARTHIK LAL.</a> All rights
                   reserved.
                 </p>
               </div>
