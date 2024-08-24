@@ -38,6 +38,9 @@ const DownloadList = ({ selectedTag }) => {
         <div className="img">
           <img src={item.img} alt="" />
           <span className="tag">{item.tag}</span>
+          {item["new-update"] === "yes" && (
+            <button className="new-update-button">New Update</button>
+          )}
           <div className="add">
             <a href="#" onClick={(event) => handleDownloadClick(event, item)}>
               Download <span className="pe-7s-angle-right"></span>

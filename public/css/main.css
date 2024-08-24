@@ -7028,3 +7028,17 @@ section.next-prog.section-padding {
   color: white;
   font-weight: bold;
 }
+
+.new-update-button {
+  position: absolute;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-size: 14px;
+  z-index: 2;
+}

@@ -11,7 +11,8 @@
       "dev_code": "MARTINI"
     },
     "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/martini/gapps",
-    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/martini/vanilla"
+    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/martini/vanilla",
+    "new-update": "yes"
   },
   {
     "id": 2,
