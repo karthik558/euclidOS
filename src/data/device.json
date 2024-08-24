@@ -10,8 +10,8 @@
       "title": "Oneplus 9RT",
       "dev_code": "MARTINI"
     },
-    "gappsDownloadLink": "https://example.com/download1-gapps",
-    "vanillaDownloadLink": "https://example.com/download1-vanilla"
+    "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/martini/gapps",
+    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/martini/vanilla"
   },
   {
     "id": 2,
