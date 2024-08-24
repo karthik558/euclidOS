@@ -12,7 +12,8 @@
     },
     "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/martini/gapps",
     "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/martini/vanilla",
-    "new-update": "yes"
+    "new-update": "yes",
+    "new-update-date": "2024-08-28"
   },
   {
     "id": 2,

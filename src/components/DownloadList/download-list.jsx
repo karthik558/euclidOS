@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import DeviceData from "../../data/device.json";
 import DownloadPopup from "./download-popup";
 
@@ -32,28 +32,38 @@ const DownloadList = ({ selectedTag }) => {
     setShowPopup(false);
   };
 
-  const items = currentItems.map((item) => (
-    <div key={item.id} className="col-lg-4 col-md-6">
-      <div className="item">
-        <div className="img">
-          <img src={item.img} alt="" />
-          <span className="tag">{item.tag}</span>
-          {item["new-update"] === "yes" && (
-            <button className="new-update-button">New Update</button>
-          )}
-          <div className="add">
-            <a href="#" onClick={(event) => handleDownloadClick(event, item)}>
-              Download <span className="pe-7s-angle-right"></span>
-            </a>
+  const items = currentItems.map((item) => {
+    const updateAvailableDate = new Date(item["new-update-date"]);
+    const currentDate = new Date();
+    const timeDiff = currentDate.getTime() - updateAvailableDate.getTime();
+    const daysElapsed = Math.ceil(timeDiff / (1000 * 3600 * 24));
+
+    // Determine if the button should be shown
+    const showNewUpdateButton = item["new-update"] === "yes" && daysElapsed <= 3;
+
+    return (
+      <div key={item.id} className="col-lg-4 col-md-6">
+        <div className="item">
+          <div className="img">
+            <img src={item.img} alt="" />
+            <span className="tag">{item.tag}</span>
+            {showNewUpdateButton && (
+              <button className="new-update-button">New Update Available</button>
+            )}
+            <div className="add">
+              <a href="#" onClick={(event) => handleDownloadClick(event, item)}>
+                Download <span className="pe-7s-angle-right"></span>
+              </a>
+            </div>
+          </div>
+          <div className="info">
+            <h6>{item.info.title}</h6>
+            <span>{item.info.dev_code}</span>
           </div>
         </div>
-        <div className="info">
-          <h6>{item.info.title}</h6>
-          <span>{item.info.dev_code}</span>
-        </div>
       </div>
-    </div>
-  ));
+    );
+  });
 
   const handlePageClick = (pageNumber) => {
     setCurrentPage(pageNumber);
