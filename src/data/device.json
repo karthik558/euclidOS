@@ -32,20 +32,6 @@
   {
     "id": 3,
     "version": "Euclid 2.0 | Vertex",
-    "img": "/img/device-list/rm6p.png",
-    "tag": "Xiaomi",
-    "maintainer": "Ashwani_212 & Dhanush",
-    "maintainerLink": "https://karthiklal.in",
-    "info": {
-      "title": "Poco M6 Pro 5G/Redmi 12 5G",
-      "dev_code": "SKY"
-    },
-    "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/sky/Gapps",
-    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/sky/Vanilla"
-  },
-  {
-    "id": 4,
-    "version": "Euclid 2.0 | Vertex",
     "img": "/img/device-list/rx50p.png",
     "tag": "Realme",
     "maintainer": "Aamir Ali",
@@ -58,7 +44,7 @@
     "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14"
   },
   {
-    "id": 5,
+    "id": 4,
     "version": "Euclid 2.0 | Vertex",
     "img": "/img/device-list/px3nfc.png",
     "tag": "Xiaomi",
@@ -72,7 +58,7 @@
     "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/surya/Vanilla"
   },
   {
-    "id": 6,
+    "id": 5,
     "version": "Euclid 2.0 | Vertex",
     "img": "/img/device-list/px5g.png",
     "tag": "Xiaomi",
@@ -86,7 +72,7 @@
     "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/stone/Vanilla"
   },
   {
-    "id": 7,
+    "id": 6,
     "version": "Euclid 2.0 | Vertex",
     "img": "/img/device-list/rn5.png",
     "tag": "Xiaomi",
