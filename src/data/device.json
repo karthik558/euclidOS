@@ -10,8 +10,8 @@
       "title": "Oneplus 9RT",
       "dev_code": "MARTINI"
     },
-    "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/martini/gapps",
-    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/martini/vanilla",
+    "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/martini/Gapps",
+    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/martini/Vanilla",
     "new-update": "yes",
     "new-update-date": "2024-08-28"
   },
@@ -26,8 +26,8 @@
       "title": "Redmi Note 10 Pro",
       "dev_code": "SWEET"
     },
-    "gappsDownloadLink": "https://example.com/download2-gapps",
-    "vanillaDownloadLink": "https://example.com/download2-vanilla"
+    "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/sweet/Gapps",
+    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/sweet/Vanilla"
   },
   {
     "id": 3,
@@ -40,8 +40,8 @@
       "title": "Poco M6 Pro 5G/Redmi 12 5G",
       "dev_code": "SKY"
     },
-    "gappsDownloadLink": "https://example.com/download2-gapps",
-    "vanillaDownloadLink": "https://example.com/download2-vanilla"
+    "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/sky/Gapps",
+    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/sky/Vanilla"
   },
   {
     "id": 4,
@@ -54,8 +54,8 @@
       "title": "Realme X50 Pro 5G",
       "dev_code": "BLADERUNNER"
     },
-    "gappsDownloadLink": "https://example.com/download2-gapps",
-    "vanillaDownloadLink": "https://example.com/download2-vanilla"
+    "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/",
+    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14"
   },
   {
     "id": 5,
@@ -68,8 +68,8 @@
       "title": "Poco X3 NFC",
       "dev_code": "SURYA"
     },
-    "gappsDownloadLink": "https://example.com/download2-gapps",
-    "vanillaDownloadLink": "https://example.com/download2-vanilla"
+    "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/surya/Gapps",
+    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/surya/Vanilla"
   },
   {
     "id": 6,
@@ -82,8 +82,8 @@
       "title": "Poco X5 5G/Redmi Note 12",
       "dev_code": "STONE"
     },
-    "gappsDownloadLink": "https://example.com/download2-gapps",
-    "vanillaDownloadLink": "https://example.com/download2-vanilla"
+    "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/stone/Gapps",
+    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/stone/Vanilla"
   },
   {
     "id": 7,
@@ -96,7 +96,7 @@
       "title": "Xiaomi Redmi Note 5",
       "dev_code": "WHYRED"
     },
-    "gappsDownloadLink": "https://example.com/download2-gapps",
-    "vanillaDownloadLink": "https://example.com/download2-vanilla"
+    "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/whyred/Gapps",
+    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14whyred/Vanilla"
   }
 ]
