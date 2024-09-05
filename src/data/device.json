@@ -11,9 +11,7 @@
       "dev_code": "MARTINI"
     },
     "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/martini/Gapps",
-    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/martini/Vanilla",
-    "new-update": "yes",
-    "new-update-date": "2024-08-28"
+    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/martini/Vanilla"
   },
   {
     "id": 2,
@@ -98,5 +96,21 @@
     },
     "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/whyred/Gapps",
     "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14whyred/Vanilla"
+  },
+  {
+    "id": 8,
+    "version": "Euclid 2.0 | Vertex",
+    "img": "/img/device-list/rn11.png",
+    "tag": "Xiaomi",
+    "maintainer": "Tanvir Hasan",
+    "maintainerLink": "https://github.com/tanvirr007",
+    "info": {
+      "title": "Redmi Note 11/NFC",
+      "dev_code": "SPES"
+    },
+    "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/spes/Gapps",
+    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/spes/Vanilla",
+    "new-update": "yes",
+    "new-update-date": "2024-09-04"
   }
 ]
