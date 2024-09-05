@@ -52,8 +52,8 @@
       "title": "Realme X50 Pro 5G",
       "dev_code": "BLADERUNNER"
     },
-    "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/",
-    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14"
+    "gappsDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/bladerunner/Gapps",
+    "vanillaDownloadLink": "https://sourceforge.net/projects/euclidos-releases/files/Android-14/bladerunner/Vanilla"
   },
   {
     "id": 5,
